@@ -10,3 +10,52 @@ REGOLE DI RESET
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* 
+************************
+VARIABLES
+************************ 
+*/
+
+:root{
+    --main-height: 100vh;
+}
+
+/* 
+************************
+MAIN
+************************ 
+*/
+
+body{
+    height: var(--main-height);
+    background-image: url(../img/teams.jpg);
+    background-size: cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: .625rem;
+}
+
+.container > div {
+    width: 40%;
+    height: 20%;
+    margin: 2.5rem;
+    border: .0625rem solid black;
+    border-radius: .625rem;
+    background-color: rgb(231, 231, 241);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -74,10 +74,15 @@ console.log(nameArray);
 console.log(jobArray);
 console.log(photoArray);
 
-// Aggancio gli Array agli ID creati su HTML per poter stampare le liste membri nel DOM
-document.getElementById('member_name').innerHTML = nameArray;
-document.getElementById('member_job').innerHTML = jobArray;
-document.getElementById('member_photo').innerHTML = photoArray;
+/* Aggancio gli Array agli ID creati su HTML per poter stampare le liste membri nel DOM;
+Interpolazione per stampa separata dati membri Team*/
+document.getElementById('member1').innerText = `${nameArray[0]} - ${jobArray[0]} - ${photoArray[0]}`;
+document.getElementById('member2').innerText = `${nameArray[1]} - ${jobArray[1]} - ${photoArray[1]}`;
+document.getElementById('member3').innerText = `${nameArray[2]} - ${jobArray[2]} - ${photoArray[2]}`;
+document.getElementById('member4').innerText = `${nameArray[3]} - ${jobArray[3]} - ${photoArray[3]}`;
+document.getElementById('member5').innerText = `${nameArray[4]} - ${jobArray[4]} - ${photoArray[4]}`;
+document.getElementById('member6').innerText = `${nameArray[5]} - ${jobArray[5]} - ${photoArray[5]}`;
+
 
 
 
