@@ -53,7 +53,7 @@ let memberPhoto;
 
 /*Eseguo un ciclo FOR per stampare una alla volta le informazioni di ogni membro (con il 
 ciclo FOR viene quindi attraversato tutto l'array di objects; in più chiedo di aggiungere
-al relativo Array l'informazione nome, ruolo, foto*/
+al relativo Array vuoto l'informazione nome, ruolo, foto*/
 for (let key in (teamMembers)){
 
     console.log(teamMembers[key].nome);
@@ -67,17 +67,14 @@ for (let key in (teamMembers)){
     nameArray.push(memberName);
     jobArray.push(memberJob);
     photoArray.push(memberPhoto);
-
 }
 
+// Stampo da console il contenuto dei 3 Array riempiti con il precedente ciclo FOR
 console.log(nameArray);
 console.log(jobArray);
 console.log(photoArray);
 
-
-
-
-
+// Aggancio gli Array agli ID creati su HTML per poter stampare le liste membri nel DOM
 document.getElementById('member_name').innerHTML = nameArray;
 document.getElementById('member_job').innerHTML = jobArray;
 document.getElementById('member_photo').innerHTML = photoArray;
