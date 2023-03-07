@@ -21,4 +21,4 @@ Organizzare i singoli membri in card/schede
 SVOLGIMENTO - IPOTESI
 
 Milestone 0
-- ho a disposizione l'elenco dei membri del team, che costituiscono i miei oggetti; ogni oggetto ha 3 chiavi (nome, ruolo, link foto); inserisco i membri (oggetti) in una lista Array.
+- ho a disposizione l'elenco dei membri del team, che costituiscono i miei oggetti; ogni oggetto ha 3 chiavi (nome, ruolo, link foto); inserisco i membri (oggetti) in una lista Array. Creo quindi un Array di objects.
