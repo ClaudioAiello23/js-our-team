@@ -22,3 +22,6 @@ SVOLGIMENTO - IPOTESI
 
 Milestone 0
 - ho a disposizione l'elenco dei membri del team, che costituiscono i miei oggetti; ogni oggetto ha 3 chiavi (nome, ruolo, link foto); inserisco i membri (oggetti) in una lista Array. Creo quindi un Array di objects.
+
+Milestone 1
+- una volta creato l'array di objects contenente i membri del Team, stampo su console, per ogni oggetto, le informazioni di NOME, RUOLO, STRINGA-IMMAGINE. Per stampare il contenuto di ogni object (chiave + relativo valore) membro per membro, utilizzo un ciclo FOR che attraversa tutto l'array di oggetti e mi permette di raggiungere le informazioni richieste (ovvero oggetto e relativo posizionamento, chiavi NOME, RUOLO, STRINGA IMMAGINE, e relativi valori).
