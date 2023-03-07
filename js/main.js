@@ -45,5 +45,8 @@ console.log(teamMembers); //stampa dell'intero Array
 /*Eseguo un ciclo FOR per stampare una alla volta le informazioni di ogni membro (con il 
 ciclo FOR viene quindi attraversato tutto l'array di objects*/
 for (let key in (teamMembers)){
-    console.log(teamMembers[key]);
+    console.log(teamMembers[key].nome);
+    console.log(teamMembers[key].ruolo);
+    console.log(teamMembers[key].foto);
 }
+
